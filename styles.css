@@ -1,3 +1,4 @@
+/* Title styling */
 h1 {
     font-size: 130px;
     text-align: left;
@@ -9,19 +10,30 @@ h1 {
     color: #504f4b;
     height: 400px;
     width: 95%;
-    margin: 6px;
+    margin: 6px auto;
     border: 1px solid #fae9e9;
     border-radius: 20px;
     padding: 20px;
 }
 
+/* Clickable icon links */
+#content {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 a {
-    float: left;
-    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 3px;
     border-radius: 20px;
     border: 1px solid #e4d1d1;
     text-decoration: none;
+    color: #504f4b;
+    transition: opacity 0.3s;
 }
 
 a:hover {
@@ -35,39 +47,43 @@ img {
 }
 
 p {
-    color: #504f4b;
-    font-size: 40px;
+    font-size: 24px;
+    margin-top: 10px;
     text-align: center;
 }
 
+/* About Us section */
 #aboutUs {
     background-color: #d2faf6;
-    margin-top: 30%;
-    padding: 100px;
+    margin-top: 50px;
+    padding: 50px;
     width: 100%;
-    height: 400px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 #mail {
-    margin-left: 80px;
-    width: 40%;
+    width: 300px;
     height: 40px;
     border: 1px solid #74e0d5;
     border-radius: 10px;
-    font-size: 30px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 20px;
 }
 
 #signUp {
     color: white;
     background-color: #74e0d5;
-    border: 1px solid #d2faf6;
+    border: none;
     border-radius: 10px;
     height: 40px;
     width: 150px;
-    font-size: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
 #signUp:hover {
