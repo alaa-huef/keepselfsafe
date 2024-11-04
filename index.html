@@ -1,49 +1,59 @@
-<html>
-    <head>
-        <title>Keep Self-Safe: The Road to a Healthy Life</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-       
-        <div id="title">
-            <h1>Keep self-safe</h1>
-        </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keep Self-Safe: The Road to a Healthy Life</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+    <div id="title">
+        <h1>Keep Self-Safe</h1>
+    </div>
+    
+    <p>
+        Welcome to Keep Self-Safe! <br>
+        Which part of your health routine concerns you?
+    </p>
+    
+    <!-- Clickable Icon Links -->
+    <div id="content">         
+        <a href="Sleep.html">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAkiiTUxv2f1V8rzF2YWraIARaqAy6lNNDEA&usqp=CAU" alt="Sleep Icon"/>
+            <p>Sleep</p>
+        </a>
         
-        <p>
-            Welcome to keep self-safe <br>
-            Which part of your health routine concerns you?
+        <a href="Exercise.html">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbDnuJX0ZKU8-oCQTQp7vR7HMg-tRA7AhrBQ&usqp=CAU" alt="Exercise Icon"/>
+            <p>Exercise</p>
+        </a>
+        
+        <a href="Vitamins.html">
+            <img src="https://www.health.com/thmb/huk7aYFr_dv8SBieClsbzJr1biA=/400x0/filters:no_upscale():max_bytes(150000):strip_icc()/vitamins-intro-400x400-fdcf22605dcd4cabb7f273cc81103376.jpg" alt="Vitamins Icon"/>
+            <p>Vitamins</p>
+        </a>
+        
+        <a href="MentalHealth.html">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW2ihI2zc_JVaqwDgjA1t6es1gd1q7OZZrOg&usqp=CAU" alt="Mental Health Icon"/>
+            <p>Mental Health</p>
+        </a>
+    </div>
+    
+    <!-- About Us and Newsletter Signup Section -->
+    <section id="aboutUs">
+        <h1 style="color:rgb(65, 61, 61); font-size:60px; padding-left:50px;">Join Us on Your Wellness Journey</h1>
+        <p id="info">
+            Get our newsletter<br><br>Filter out the noise and nurture your inbox with health and<br>wellness advice that is inclusive and rooted in medical expertise.
         </p>
         
-        <div id="content">         
-            <a target="_blank" href="">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAkiiTUxv2f1V8rzF2YWraIARaqAy6lNNDEA&usqp=CAU"/>
-                <p>Sleep</p>
-            </a>
-            
-            <a target="_blank" href="">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbDnuJX0ZKU8-oCQTQp7vR7HMg-tRA7AhrBQ&usqp=CAU"/>
-                <p>Exercise</p>
-            </a>
-            
-            <a target="_blank" href="Vitamins.html">
-                <img src="https://www.health.com/thmb/huk7aYFr_dv8SBieClsbzJr1biA=/400x0/filters:no_upscale():max_bytes(150000):strip_icc()/vitamins-intro-400x400-fdcf22605dcd4cabb7f273cc81103376.jpg"/>
-                <p>Vitamins</p>
-            </a>
-            
-            <a target="_blank" href="">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW2ihI2zc_JVaqwDgjA1t6es1gd1q7OZZrOg&usqp=CAU"/>
-                <p>Mental Health</p>
-            </a>
-        </div>
+        <!-- Email Input Field -->
+        <input id="mail" type="email" placeholder="Enter your email">
         
-        <section id="aboutUs">
-            <h1 style="color:rgb(65, 61, 61); font-size:60px; padding-left:50px;"> </h1>
-            <p id="info">
-                Get our newsletter<br><br>Filter out the noise and nurture your inbox with health and<br>wellness advice that is inclusive and rooted in medical expertise.
-            </p>
-            <input onclick="validateForm()" id="signUp" type="submit" value="Sign Up">
-        </section>
+        <!-- Sign-Up Button -->
+        <input onclick="validateForm()" id="signUp" type="button" value="Sign Up">
+    </section>
 
-        <script src="scripts.js"></script>
-    </body>
+    <script src="scripts.js"></script>
+</body>
 </html>
